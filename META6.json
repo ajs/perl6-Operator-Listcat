@@ -1,0 +1,13 @@
+{
+    "perl": "6.d",
+    "name" : "Operator::Listcat",
+    "version" : "1.0.0",
+    "description" : "An operator for list concatenation",
+    "authors" : [ "Aaron Sherman" ],
+    "provides" : {
+        "Operator::Listcat" : "lib/Operator/Listcat.pm6",
+    },
+    "depends" : [ ],
+    "resources" : [ ],
+    "source-url" : "https://github.com/ajs/perl6-Operator-Listcat.git"
+}
