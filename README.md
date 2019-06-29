@@ -18,6 +18,29 @@ There are three things here:
   a `listcat` between the `List` object that it's called on and its
   arguments, returning the unified list.
 
+## Examples
+
+See [INSTALL](INSTALL.md) for more detail,
+But basic installation is:
+
+    zef install Operator::Listcat
+
+Some usage:
+
+```Perl6
+use Operator::Listcat;
+
+my @a = 1, 2, [3, 4];
+my @b = <a b c d>;
+
+say "Together: ", @a listcat @b;
+
+say "Together, but terser: ", @a ⊕ @b;
+
+say "Together with friends: ",
+  @a.sling(@b, [8, [9]]);
+```
+
 ## Licence
 
 This is free software.
