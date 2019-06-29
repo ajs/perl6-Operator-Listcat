@@ -17,3 +17,9 @@ There are three things here:
 * A modification to `List` that adds the `sling` method that performs
   a `listcat` between the `List` object that it's called on and its
   arguments, returning the unified list.
+
+## Licence
+
+This is free software.
+
+Please see the [LICENCE](LICENSE.md) for the details.
