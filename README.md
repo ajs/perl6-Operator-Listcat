@@ -3,7 +3,7 @@
 A module that adds operators and methods for merging lists
 in a clean way. See:
 
-## [Perl 6 Needs a List Concatenation Op](http://ajs.github.io/tools/perl-6-needs-a-list-concatenation-op/)
+## [Perl 6 Needs a List Concatenation Op](http://ajs.github.io/tools/perl-6-list-concat-op/)
 
 From that article:
 
