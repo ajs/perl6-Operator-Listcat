@@ -4,10 +4,7 @@ use v6.d;
 use MONKEY-TYPING;
 
 sub infix:<listcat>(@a, @b) is equiv(&infix:<~>) is export { |@a, |@b }
-
-# Would not export for some reason
-# our &infix:<< ⊕ >> is export := &infix:<listcat>;
-sub infix:<< ⊕ >>(@a, @b) is equiv(&infix:<~>) is export { |@a, |@b }
+my constant &infix:<⊕> is export = &infix:<listcat>;
 
 augment class List {
     method sling(List:D: *@lists) { [listcat] self, @lists }
